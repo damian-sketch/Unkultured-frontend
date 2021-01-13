@@ -1,0 +1,30 @@
+.logo{
+    width: 120px;
+    height: 40px;
+}
+
+div.container{
+    margin-left: 60px;
+}
+
+header.bg-dark{
+    height: 100px;
+    padding: 5px;
+}
+
+.navbar{
+    height: 100%;
+    
+}
+
+.form-inline{
+    margin-left: 40px;
+}
+
+#navbarResponsive{
+    margin-left: 100px;
+}
+
+.navbar-collapse{
+    height: 40px;
+}

@@ -19,12 +19,17 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+footer{
+  background-color: rgb(32, 32, 32);
+  height: 3.4rem;
+  text-align: center;
+  color: white;
+}
 article,
 aside,
 details,
 figcaption,
 figure,
-footer,
 header,
 main,
 menu,
