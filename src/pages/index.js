@@ -22,38 +22,32 @@ const IndexPage = ({ data }) => {
           This is more text added to the card
           </Card.Text>
           <StaticImage alt="This is a concert" src="../images/concert.jpg"/>
-          <Button variant="dark">Read Full story</Button>
+          {/* <Button variant="dark">Read Full story</Button> */}
         </Card.Body>
       </Card>
 
     <CardDeck>
-      <Card style={{ marginTop: '2rem', width: '450px' }} >
+      <Card style={{ marginTop: '2rem', width: '450px', height: '450px' }} >
         <Card.Body>
+          <StaticImage alt="This is a concert" src="../images/trumpet.jpg"/>
           <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
-          <Card.Text>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </Card.Text>
-          <Button variant="dark">Read Full story</Button>
+          {/* <Button variant="dark">Read Full story</Button> */}
         </Card.Body>
       </Card>
    
-      <Card style={{ marginTop: '2rem', width: '450px' }} >
+      <Card style={{ marginTop: '2rem', width: '450px', height: '450px' }} >
         <Card.Body>
+          <StaticImage alt="This is a concert" src="../images/fashion.jpg"/>
           <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
-          <Card.Text>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </Card.Text>
-          <Button variant="dark">Read Full story</Button>
+          {/* <Button variant="dark">Read Full story</Button> */}
         </Card.Body>
       </Card>
       
-      <Card style={{ marginTop: '2rem', width: '450px' }} >
+      <Card style={{ marginTop: '2rem', width: '450px', height: '450px' }} >
         <Card.Body>
+          <StaticImage alt="This is a concert" src="../images/fashion.jpg"/>
           <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
-          <Card.Text>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </Card.Text>
-          <Button variant="dark">Read Full story</Button>
+          {/* <Button variant="dark">Read Full story</Button> */}
         </Card.Body>
       </Card>
 
