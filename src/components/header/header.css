@@ -22,9 +22,21 @@ header.bg-dark{
 }
 
 #navbarResponsive{
-    margin-left: 100px;
+    width: 70px;
 }
 
 .navbar-collapse{
     height: 40px;
+}
+
+.navlinks{
+    margin-left: 0px;
+}
+#search-input{
+    height: 30px;
+}
+
+.nav-link:hover{
+    color:white !important;
+    font-weight: bolder !important
 }

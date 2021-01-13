@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
       <Card>
         <Card.Header className="card-header">Feature Article</Card.Header>
         <Card.Body>
-          <Card.Title>
+          <Card.Title className="title">
             <Link to={'/page-2/page-2'}>MASUFURI SIGNS NEW RECORD DEAL</Link>
           </Card.Title>
           <Card.Text>

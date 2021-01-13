@@ -14,7 +14,7 @@ const Header = () => (
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarResponsive" />
         <Navbar.Collapse id="navbarResponsive">
-          <Nav as="ul" className="ml-auto">
+          <Nav as="ul" className="navlinks">
             <Nav.Item as="li">
               <Link to="/page-2/page-2" className="nav-link" activeClassName="active">Music</Link>
             </Nav.Item>
@@ -27,8 +27,14 @@ const Header = () => (
             <Nav.Item as="li">
               <Link to="" className="nav-link" activeClassName="active">Pop-Culture</Link>
             </Nav.Item>
+            <Nav.Item as="li">
+              <Link to="" className="nav-link" activeClassName="active">Charts</Link>
+            </Nav.Item>
+            <Nav.Item as="li">
+              <Link to="" className="nav-link" activeClassName="active">Shop</Link>
+            </Nav.Item>
             <Form inline>
-              <FormControl type="text" placeholder="Search" className=" mr-sm-2" />
+              <FormControl type="text" placeholder="Search" className=" mr-sm-2" id="search-input"/>
               <Button type="submit" variant="dark">Submit</Button>
             </Form>
           </Nav>
