@@ -11,8 +11,13 @@ const IndexPage = ({ data }) => {
   return (
   <Layout>
       <SEO title="Home" />
-      <Card>
-        <Card.Header className="card-header">Feature Article</Card.Header>
+      {/* Feature Article card */}
+      <div class="feature-title">
+        <h1 class="page-title">FEATURE</h1>
+        <div class="line" />
+      </div>
+      <Card id="feature-card">
+        {/* <Card.Header className="card-header">Feature Article</Card.Header> */}
         <Card.Body>
           <Card.Title className="title">
             <Link to={'/page-2/page-2'}>MASUFURI SIGNS NEW RECORD DEAL</Link>
@@ -25,33 +30,47 @@ const IndexPage = ({ data }) => {
           {/* <Button variant="dark">Read Full story</Button> */}
         </Card.Body>
       </Card>
+      <br/>
 
-    <CardDeck>
-      <Card style={{ marginTop: '2rem', width: '450px', height: '450px' }} >
-        <Card.Body>
-          <StaticImage alt="This is a concert" src="../images/trumpet.jpg"/>
-          <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
-          {/* <Button variant="dark">Read Full story</Button> */}
-        </Card.Body>
-      </Card>
-   
-      <Card style={{ marginTop: '2rem', width: '450px', height: '450px' }} >
-        <Card.Body>
-          <StaticImage alt="This is a concert" src="../images/fashion.jpg"/>
-          <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
-          {/* <Button variant="dark">Read Full story</Button> */}
-        </Card.Body>
-      </Card>
-      
-      <Card style={{ marginTop: '2rem', width: '450px', height: '450px' }} >
-        <Card.Body>
-          <StaticImage alt="This is a concert" src="../images/fashion.jpg"/>
-          <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
-          {/* <Button variant="dark">Read Full story</Button> */}
-        </Card.Body>
-      </Card>
-
-    </CardDeck>
+      {/* Other Stories' Cards */}
+      <CardDeck>
+        
+        <Card className="card-style">
+          <Card.Body>
+            <div class="other-title">
+              <h2 class="sub-title">MUSIC</h2>
+              <div class="sub-line" />
+            </div>
+            <StaticImage alt="This is a concert" src="../images/trumpet.jpg"/>
+            <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
+            {/* <Button variant="dark">Read Full story</Button> */}
+          </Card.Body>
+        </Card>
+    
+        <Card className="card-style">
+          <Card.Body>
+            <div class="other-title">
+              <h2 class="sub-title">FASHION</h2>
+              <div class="sub-line" />
+            </div>
+            <StaticImage alt="This is a concert" src="../images/fashion.jpg"/>
+            <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
+            {/* <Button variant="dark">Read Full story</Button> */}
+          </Card.Body>
+        </Card>
+        
+        <Card className="card-style">
+          <Card.Body>
+            <div class="other-title">
+              <h2 class="sub-title">DRINKS</h2>
+              <div class="sub-line" />
+            </div>
+            <StaticImage alt="This is a concert" src="../images/wine.jpg"/>
+            <Card.Title>MASUFURI SIGNS NEW RECORD DEAL</Card.Title>
+            {/* <Button variant="dark">Read Full story</Button> */}
+          </Card.Body>
+        </Card>
+      </CardDeck>
 
   </Layout>
 )

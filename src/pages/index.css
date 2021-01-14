@@ -1,11 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
-
-.card-header{
+@import url('https://fonts.googleapis.com/css?family=Goldman&display=swap');
+/* .card-header{
   font-family: 'Domine';
   font-weight: bold;
   font-size: 2.4rem;
-}
+} */
 
 .title a{
-  color: black;
+  color: rgb(5, 79, 190);
+  font-size: 0.7em;
+}
+
+.card-style{
+  border:none;
+  margin-top: 2rem;
+  width: 450px;
+  height: 450px;
+  border-radius: 0;
+}
+
+#feature-card{
+  border: none;
+}
+
+.page-title{
+  font-size: 1.3em;
+  margin-left: 20px;
+  font-family: 'Goldman'
+}
+
+.feature-title{
+  display: flex;
+  justify-content: space-between;
+  width:1100px;
+}
+
+.line{
+  background-color: black;
+  height:2px;
+  width: 86%;
+  margin-top: 12px;
+}
+
+#other-news{
+  font-size: 1.3em;
+  margin-left: 20px;
+  font-family: 'Domine'
+}
+
+.sub-title{
+  font-size: 1.0em;
+  font-family: 'Goldman'
+}
+
+.other-title{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.sub-line{
+  background-color: black;
+  height:2px;
+  width: 244px;
+  margin-top: 10px;
 }
