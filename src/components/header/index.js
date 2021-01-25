@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import { Container, Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
 import Logo from "../../images/Logo Final White.png"
-import './header.css'
+import './styles.css'
 
 const Header = () => (
   <header className="bg-dark">
@@ -16,10 +16,10 @@ const Header = () => (
         <Navbar.Collapse id="navbarResponsive">
           <Nav as="ul" className="navlinks">
             <Nav.Item as="li">
-              <Link to="/page-2/page-2" className="nav-link" activeClassName="active">Music</Link>
+              <Link to="/page-2" className="nav-link" activeClassName="active">Music</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link to="/404/404" className="nav-link" activeClassName="active">News</Link>
+              <Link to="/404" className="nav-link" activeClassName="active">News</Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Link to="" className="nav-link" activeClassName="active">Lifestyle</Link>

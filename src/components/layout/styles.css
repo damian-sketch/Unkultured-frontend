@@ -4,6 +4,7 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  
 }
 body {
   margin: 0;
@@ -18,14 +19,35 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
+  
 }
 footer{
   background-color: rgb(32, 32, 32);
-  height: 3.4rem;
+  height: 5.4rem;
   text-align: center;
   color: white;
-  margin-bottom: 0%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
+* {
+  box-sizing: border-box;
+ }
+ *:before,
+ *:after {
+  box-sizing: border-box;
+ }
+
+ .bodywrap {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: scroll;
+  display: block;
+  position: relative;
+  padding-bottom: 5.4rem; /* height of your footer */
+ }
+
+
+
 article,
 aside,
 details,
