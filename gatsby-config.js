@@ -6,6 +6,10 @@ module.exports = {
     description: `This is a gatsby blog website`,
     author: `@damian`,
   },
+  // proxy: {
+  //     prefix: "/api",
+  //     url: "http://localhost:3000",
+  //   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

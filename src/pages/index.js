@@ -4,18 +4,19 @@ import { StaticImage } from 'gatsby-plugin-image'
 // import Img from "gatsby-image"
 import Layout from "../components/layout/index"
 import SEO from "../components/seo/seo"
-import { Card, Button, CardDeck } from "react-bootstrap"
+import { Card, CardDeck } from "react-bootstrap"
 import './styles.css'
 
 const IndexPage = ({ data }) => { 
+  
   
   return (
   <Layout>
       <SEO title="Home" />
       {/* Feature Article card */}
-      <div class="feature-title">
-        <h1 class="page-title">FEATURE</h1>
-        <div class="line" />
+      <div className="feature-title">
+        <h1 className="page-title">FEATURE</h1>
+        <div className="line" />
       </div>
       <Card id="feature-card">
         {/* <Card.Header className="card-header">Feature Article</Card.Header> */}
@@ -37,9 +38,9 @@ const IndexPage = ({ data }) => {
       <CardDeck>
         <Card className="card-style">
           <Card.Body>
-            <div class="other-title">
-              <h2 class="sub-title">MUSIC</h2>
-              <div class="sub-line" />
+            <div className="other-title">
+              <h2 className="sub-title">MUSIC</h2>
+              <div className="sub-line" />
             </div>
             <StaticImage alt="This is a concert" src="../images/trumpet.jpg"/>
             <Card.Title>
@@ -51,9 +52,9 @@ const IndexPage = ({ data }) => {
     
         <Card className="card-style">
           <Card.Body>
-            <div class="other-title">
-              <h2 class="sub-title">FASHION</h2>
-              <div class="sub-line" />
+            <div className="other-title">
+              <h2 className="sub-title">FASHION</h2>
+              <div className="sub-line" />
             </div>
             <StaticImage alt="This is a concert" src="../images/fashion.jpg"/>
             <Card.Title>
@@ -65,9 +66,9 @@ const IndexPage = ({ data }) => {
         
         <Card className="card-style">
           <Card.Body>
-            <div class="other-title">
-              <h2 class="sub-title">DRINKS</h2>
-              <div class="sub-line" />
+            <div className="other-title">
+              <h2 className="sub-title">DRINKS</h2>
+              <div className="sub-line" />
             </div>
             <StaticImage alt="This is a concert" src="../images/wine.jpg"/>
             <Card.Title>
