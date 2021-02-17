@@ -1,5 +1,5 @@
-import React from "react"
-import Layout from "../../components/layout"
+import React from "react";
+import Layout from "../../components/layout";
 import Comment from "../../components/comment"
 import createAxiosClient from "../../../utils/axios_config"
 
@@ -35,7 +35,7 @@ class FeatureDetails extends React.Component {
             <p>Excepteur nisi consequat et nostrud labore duis sint dolor sunt. Excepteur exercitation laborum tempor consequat ex consequat. Deserunt aute culpa voluptate aute id consectetur qui. Velit deserunt irure consectetur ut excepteur ex officia minim commodo cupidatat Lorem ut. Eiusmod incididunt nisi fugiat culpa dolore reprehenderit aliqua nisi elit laboris ullamco. Occaecat velit esse officia non ea cupidatat dolor eu culpa ea laboris sit velit. Labore proident exercitation eiusmod duis duis excepteur ea minim occaecat laboris occaecat.</p>
             </div>  
             <Comment comment={this.state.comment}/>
-            <button onClick={this.clickedButton()}>Click me</button>
+            <button onClick={this.clickedButton}>Click me</button>
             { this.state.hello 
               ? <div>{ this.state.hello } </div>
               : null 

@@ -22,7 +22,7 @@ const Header = () => (
               <Link to="/404" className="nav-link" activeClassName="active">News</Link>
             </Nav.Item>
             <Nav.Item as="li">
-              <Link to="" className="nav-link" activeClassName="active">Lifestyle</Link>
+              <Link to="/createPost" className="nav-link" activeClassName="active">Lifestyle</Link>
             </Nav.Item>
             <Nav.Item as="li">
               <Link to="" className="nav-link" activeClassName="active">Pop-Culture</Link>
